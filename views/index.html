@@ -1,0 +1,34 @@
+<div class="slides" ng-controller="IndexCtrl" class="IndexCtrl">
+	<section>
+		<section data-background="rgba(0, 100, 100, 0.2)">
+			<p style="font-size: 36px;">爱丫,图/Love Compress pics</p>
+			<!-- <img style="width: 10%;" id="userImg-User-Selector" src="{{$root.mysrc}}"> -->
+			<div class="uploadImg">
+				<!-- <a role="button" href="#" style="padding: 23px 52px" ng-click="upload()" class="btn btn-default btn-lg">上传/upload</a> -->
+				<h2><a href="#" ng-click="upload()" style="color:#fff">上传/upload</a></h2>
+				<upload-img></upload-img>
+			</div>
+		</section>
+		<section data-background="#888888" data-background-video="videos/1.mp4,videos/1.webm">
+		</section>
+	</section>
+	<section>
+		<section data-background="#934f4d">
+			<div>
+				<a role="button" style="padding: 23px 52px" class="btn btn-default btn-lg" href="#" id="downloader" ng-click="downloadImg()" download="">下载/Download</a>
+				<a role="button" style="padding: 23px 52px" class="btn btn-default btn-lg" href="#" ng-click="reset()">重置/reset</a>
+			</div>
+		</section>
+		<section data-background="#888888" data-background-video="videos/1.webm">
+		</section>
+	</section>
+	<section data-background="#888888">
+		<div ng-include src="'views/indexs/index-3.html'"></div>
+		<br>
+		<button ng-click="nextBtn()" class="btn btn-default">next</button>
+		<button ng-click="prevBtn()" class="btn btn-default">pre</button>
+	</section>
+	<div class='my-arrow-img-div' ng-click="help()">
+	    <img  class='my-arrow-img my-arrow-img-style my-arrow-img-animate'  src="{{$root.help_back_img}}">
+	</div>
+</div>

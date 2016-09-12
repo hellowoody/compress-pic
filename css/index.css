@@ -1,0 +1,95 @@
+.slides section.has-dark-background,
+.slides section.has-dark-background h2 {
+    color: #fff;
+}
+.slides section.has-light-background,
+.slides section.has-light-background h2 {
+    color: #222;
+}
+.uploadImg #file{
+    width: 0px;
+    opacity: 0;
+}
+
+.my-arrow-img-div {
+	position: absolute !important;
+	bottom: 0 !important;
+	left:45%;
+	z-index: 100;
+}
+.my-arrow-img {
+	opacity: 0;
+}
+.my-arrow-img-style {
+	border : 0px !important;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.15) !important;
+    background: rgba(255, 255, 255, 0) !important;
+}
+.my-arrow-img-animate {
+	animation: myImgAnimate  1.5s  infinite ease-in-out ;
+	-moz-animation: myImgAnimate  1.5s  infinite ease-in-out ;
+	-webkit-animation: myImgAnimate  1.5s  infinite ease-in-out ;
+	-o-animation: myImgAnimate  1.5s  infinite ease-in-out ;
+}
+@keyframes myImgAnimate
+{
+	0%, 30% {
+	    opacity: 0;
+	    transform: translate(0px, 10px);
+	}
+	60% {
+	    opacity: 1;
+	    transform: translate(0px, 0px);
+	}
+	100% {
+	    opacity: 0;
+	    transform: translate(0px, -8px);
+	}
+}
+@-moz-keyframes myImgAnimate /* Firefox */
+{
+	0%, 30% {
+	    opacity: 0;
+	    transform: translate(0px, 10px);
+	}
+	60% {
+	    opacity: 1;
+	    transform: translate(0px, 0px);
+	}
+	100% {
+	    opacity: 0;
+	    transform: translate(0px, -8px);
+	}
+}
+
+@-webkit-keyframes myImgAnimate /* Safari 和 Chrome */
+{
+	0%, 30% {
+	    opacity: 0;
+	    transform: translate(0px, 10px);
+	}
+	60% {
+	    opacity: 1;
+	    transform: translate(0px, 0px);
+	}
+	100% {
+	    opacity: 0;
+	    transform: translate(0px, -8px);
+	}
+}
+
+@-o-keyframes myImgAnimate /* Opera */
+{
+	0%, 30% {
+	    opacity: 0;
+	    transform: translate(0px, 10px);
+	}
+	60% {
+	    opacity: 1;
+	    transform: translate(0px, 0px);
+	}
+	100% {
+	    opacity: 0;
+	    transform: translate(0px, -8px);
+	}
+}
