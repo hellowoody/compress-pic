@@ -1,0 +1,202 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'hexo-cli' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'hexo-cli', null ]
+7 verbose cache add spec hexo-cli
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'hexo-cli',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'hexo-cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed hexo-cli@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for hexo-cli
+11 info addNameTag [ 'hexo-cli', 'latest' ]
+12 silly mapToRegistry name hexo-cli
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/hexo-cli
+16 verbose addNameTag registry:https://registry.npmjs.org/hexo-cli not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/hexo-cli
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 22:17:50
+20 verbose request id 2e30df87f8a5ed81
+21 http request GET https://registry.npmjs.org/hexo-cli
+22 http 200 https://registry.npmjs.org/hexo-cli
+23 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+23 verbose headers   etag: '"2B3XOX6VZZ3O63S6AIQNHCTCE"',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'content-encoding': 'gzip',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'content-length': '3780',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Mon, 12 Sep 2016 14:17:52 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '4',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '2',
+23 verbose headers   'x-timer': 'S1473689872.165793,VS0,VE0',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+24 silly get     etag: '"2B3XOX6VZZ3O63S6AIQNHCTCE"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'content-encoding': 'gzip',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '3780',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Mon, 12 Sep 2016 14:17:52 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '4',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-itm7423-ITM',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '2',
+24 silly get     'x-timer': 'S1473689872.165793,VS0,VE0',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose get saving hexo-cli to /Users/woody/.npm/registry.npmjs.org/hexo-cli/.cache.json
+26 verbose correctMkdir /Users/woody/.npm correctMkdir not in flight; initializing
+27 silly addNameTag next cb for hexo-cli with tag latest
+28 silly addNamed hexo-cli@1.0.2
+29 verbose addNamed "1.0.2" is a plain semver version for hexo-cli
+30 silly mapToRegistry name hexo-cli
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/hexo-cli
+34 verbose addRemoteTarball https://registry.npmjs.org/hexo-cli/-/hexo-cli-1.0.2.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/hexo-cli/-/hexo-cli-1.0.2.tgz',
+35 verbose addRemoteTarball   '8ebcae88cac29254f1e9ac07f8a9f07399a8a1ae' ]
+36 info retry fetch attempt 1 at 22:17:51
+37 info attempt registry request try #1 at 22:17:51
+38 http fetch GET https://registry.npmjs.org/hexo-cli/-/hexo-cli-1.0.2.tgz
+39 http fetch 200 https://registry.npmjs.org/hexo-cli/-/hexo-cli-1.0.2.tgz
+40 silly fetchAndShaCheck shasum 8ebcae88cac29254f1e9ac07f8a9f07399a8a1ae
+41 verbose addTmpTarball /var/folders/np/xbmrjsdx3wx0rymdb8vzqgp40000gp/T/npm-631-845a726b/registry.npmjs.org/hexo-cli/-/hexo-cli-1.0.2.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for hexo-cli@1.0.2
+43 verbose correctMkdir /Users/woody/.npm correctMkdir not in flight; initializing
+44 silly cache afterAdd hexo-cli@1.0.2
+45 verbose afterAdd /Users/woody/.npm/hexo-cli/1.0.2/package/package.json not in flight; writing
+46 verbose correctMkdir /Users/woody/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /Users/woody/.npm/hexo-cli/1.0.2/package/package.json written
+48 silly install resolved [ { name: 'hexo-cli',
+48 silly install resolved     version: '1.0.2',
+48 silly install resolved     description: 'Command line interface for Hexo',
+48 silly install resolved     main: 'lib/hexo',
+48 silly install resolved     bin: { hexo: './bin/hexo' },
+48 silly install resolved     scripts:
+48 silly install resolved      { eslint: 'eslint .',
+48 silly install resolved        jscs: 'jscs .',
+48 silly install resolved        test: 'mocha test/index.js',
+48 silly install resolved        'test-cov': 'istanbul cover --print both _mocha -- test/index.js' },
+48 silly install resolved     directories: { lib: './lib', bin: './bin' },
+48 silly install resolved     repository:
+48 silly install resolved      { type: 'git',
+48 silly install resolved        url: 'git+https://github.com/hexojs/hexo-cli.git' },
+48 silly install resolved     homepage: 'https://hexo.io/',
+48 silly install resolved     keywords: [ 'website', 'blog', 'cms', 'framework', 'hexo', 'cli' ],
+48 silly install resolved     author:
+48 silly install resolved      { name: 'Tommy Chen',
+48 silly install resolved        email: 'tommy351@gmail.com',
+48 silly install resolved        url: 'http://zespia.tw' },
+48 silly install resolved     license: 'MIT',
+48 silly install resolved     dependencies:
+48 silly install resolved      { abbrev: '^1.0.7',
+48 silly install resolved        bluebird: '^3.4.0',
+48 silly install resolved        chalk: '^1.1.3',
+48 silly install resolved        'hexo-fs': '^0.1.5',
+48 silly install resolved        'hexo-log': '^0.1.2',
+48 silly install resolved        'hexo-util': '^0.6.0',
+48 silly install resolved        minimist: '^1.2.0',
+48 silly install resolved        'object-assign': '^4.1.0',
+48 silly install resolved        tildify: '^1.2.0' },
+48 silly install resolved     devDependencies:
+48 silly install resolved      { chai: '^3.5.0',
+48 silly install resolved        'chai-as-promised': '^5.3.0',
+48 silly install resolved        eslint: '^2.12.0',
+48 silly install resolved        'eslint-config-hexo': '^1.0.3',
+48 silly install resolved        'hexo-renderer-marked': '^0.2.10',
+48 silly install resolved        istanbul: '^0.4.3',
+48 silly install resolved        jscs: '^3.0.4',
+48 silly install resolved        'jscs-preset-hexo': '^1.0.1',
+48 silly install resolved        mocha: '^2.5.3',
+48 silly install resolved        proxyquire: '^1.7.9',
+48 silly install resolved        rewire: '^2.5.1',
+48 silly install resolved        sinon: '^1.17.4' },
+48 silly install resolved     gitHead: 'fb567e2d1e32929c4183ab4fcf1a5645fb646eb2',
+48 silly install resolved     bugs: { url: 'https://github.com/hexojs/hexo-cli/issues' },
+48 silly install resolved     _id: 'hexo-cli@1.0.2',
+48 silly install resolved     _shasum: '8ebcae88cac29254f1e9ac07f8a9f07399a8a1ae',
+48 silly install resolved     _from: 'hexo-cli@latest',
+48 silly install resolved     _npmVersion: '3.7.1',
+48 silly install resolved     _nodeVersion: '4.3.0',
+48 silly install resolved     _npmUser: { name: 'tommy351', email: 'tommy351@gmail.com' },
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: '8ebcae88cac29254f1e9ac07f8a9f07399a8a1ae',
+48 silly install resolved        tarball: 'https://registry.npmjs.org/hexo-cli/-/hexo-cli-1.0.2.tgz' },
+48 silly install resolved     maintainers: [ [Object] ],
+48 silly install resolved     _npmOperationalInternal:
+48 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+48 silly install resolved        tmp: 'tmp/hexo-cli-1.0.2.tgz_1465818839377_0.7479208533186466' },
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/hexo-cli/-/hexo-cli-1.0.2.tgz' } ]
+49 info install hexo-cli@1.0.2 into /usr/local/lib
+50 info installOne hexo-cli@1.0.2
+51 verbose installOne of hexo-cli to /usr/local/lib not in flight; installing
+52 verbose correctMkdir /Users/woody/.npm/_locks correctMkdir not in flight; initializing
+53 verbose lock using /Users/woody/.npm/_locks/hexo-cli-d89d95637eeaa0d8.lock for /usr/local/lib/node_modules/hexo-cli
+54 silly install write writing hexo-cli 1.0.2 to /usr/local/lib/node_modules/hexo-cli
+55 verbose unbuild lib/node_modules/hexo-cli
+56 silly gentlyRm /usr/local/lib/node_modules/hexo-cli is being purged from base /usr/local
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/hexo-cli
+58 verbose tar unpack /Users/woody/.npm/hexo-cli/1.0.2/package.tgz
+59 verbose tar unpacking to /usr/local/lib/node_modules/hexo-cli
+60 silly gentlyRm /usr/local/lib/node_modules/hexo-cli is being purged
+61 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/hexo-cli
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 error tar.unpack untar error /Users/woody/.npm/hexo-cli/1.0.2/package.tgz
+64 verbose unlock done using /Users/woody/.npm/_locks/hexo-cli-d89d95637eeaa0d8.lock for /usr/local/lib/node_modules/hexo-cli
+65 verbose fstream_path /usr/local/lib/node_modules/hexo-cli
+66 verbose fstream_type Directory
+67 verbose fstream_class DirWriter
+68 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/hexo-cli'
+68 verbose stack     at Error (native)
+69 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+69 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+69 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+70 verbose cwd /Users/woody/Documents/webstorm_workspace/reveal_demo/compress_pic
+71 error Darwin 15.4.0
+72 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "hexo-cli"
+73 error node v4.4.1
+74 error npm  v2.14.20
+75 error path /usr/local/lib/node_modules/hexo-cli
+76 error code EACCES
+77 error errno -13
+78 error syscall mkdir
+79 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/hexo-cli'
+79 error     at Error (native)
+79 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/hexo-cli']
+79 error   errno: -13,
+79 error   code: 'EACCES',
+79 error   syscall: 'mkdir',
+79 error   path: '/usr/local/lib/node_modules/hexo-cli',
+79 error   fstream_type: 'Directory',
+79 error   fstream_path: '/usr/local/lib/node_modules/hexo-cli',
+79 error   fstream_class: 'DirWriter',
+79 error   fstream_stack:
+79 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+79 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+79 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+80 error Please try running this command again as root/Administrator.
+81 verbose exit [ -13, true ]
+82 verbose unbuild lib/node_modules/hexo-cli
+83 silly gentlyRm /usr/local/lib/node_modules/hexo-cli is being purged from base /usr/local
+84 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/hexo-cli
